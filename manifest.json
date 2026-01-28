@@ -1,0 +1,22 @@
+{
+  "widget": {
+    "name": "Статус-бар сделки",
+    "description": "Показывает и изменяет значение от 0 до 1000 прямо в карточке сделки с помощью кнопок «+» и «−».",
+    "short_description": "Статус-бар 0–1000 в карточке сделки.",
+    "version": "1.0.0",
+    "interface_version": 2,
+    "init_once": false,
+    "locale": ["ru"],
+    "installation": false
+  },
+  "locations": [
+    "lcard-1",
+    "settings"
+  ],
+  "tour": {
+    "is_tour": false,
+    "tour_images": {},
+    "tour_description": ""
+  },
+  "settings": {}
+}
