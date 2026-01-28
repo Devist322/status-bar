@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Статус бар 1000/1000</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="amo-status-widget">
+      <main class="main">
+        <div class="status-bar-wrapper">
+          <div class="status-bar-bg">
+            <div id="statusBarFill" class="status-bar-fill"></div>
+            <div class="status-bar-label">
+              <span id="currentValue">1000</span>/<span id="maxValue">1000</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <button id="decreaseBtn" class="btn btn-secondary">−</button>
+          <button id="increaseBtn" class="btn btn-primary">+</button>
+        </div>
+      </main>
+
+      <!-- Модальное окно -->
+      <div id="modalBackdrop" class="modal-backdrop hidden">
+        <div class="modal">
+          <input
+            id="valueInput"
+            type="number"
+            class="modal-input"
+            min="0"
+            max="1000"
+            step="1"
+            placeholder="Введите значение"
+          />
+          <p id="errorText" class="error-text hidden"></p>
+          <div class="modal-actions">
+            <button id="confirmBtn" class="btn btn-primary">Принять</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
