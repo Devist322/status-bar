@@ -1,23 +1,28 @@
 {
   "widget": {
-    "name": "Статус-бар сделки",
-    "description": "Показывает и изменяет значение от 0 до 1000 прямо в карточке сделки с помощью кнопок «+» и «−».",
-    "short_description": "Статус-бар 0–1000 в карточке сделки.",
+    "name": "widget.name",
+    "description": "widget.description",
+    "short_description": "widget.short_description",
     "version": "1.0.0",
     "interface_version": 2,
     "init_once": false,
     "locale": ["ru"],
-    "installation": false
+    "installation": false,
+    "support": {
+      "link": "https://github.com/devist322/status-bar",
+      "email": "support@example.com"
+    }
   },
   "locations": [
     "lcard-1",
     "settings"
   ],
   "tour": {
-    "is_tour": false,
-    "tour_images": {},
-    "tour_description": ""
+    "is_tour": true,
+    "tour_images": {
+      "ru": ["/images/tour_1_ru.png"]
+    },
+    "tour_description": "widget.tour_description"
   },
   "settings": {}
 }
-
