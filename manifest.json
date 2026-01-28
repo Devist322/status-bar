@@ -1,0 +1,23 @@
+{
+  "name": "Status Bar Deal Widget",
+  "version": "1.0.0",
+  "description": "Статус-бар 0–1000 в карточке сделки amoCRM с изменением через кнопки + и −.",
+  "type": "widget",
+  "locale": {
+    "ru": {
+      "name": "Статус-бар сделки",
+      "description": "Показывает и изменяет значение 0–1000 прямо в карточке сделки."
+    }
+  },
+  "settings": {
+    "integrations": [],
+    "locations": [
+      {
+        "code": "leads.card",
+        "name": "Статус-бар в карточке сделки",
+        "template_url": "https://devist322.github.io/status-bar/index.html"
+      }
+    ]
+  }
+}
+
